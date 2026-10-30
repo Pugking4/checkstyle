@@ -8,6 +8,6 @@
 package com.puppycrawl.tools.checkstyle.checks.outertypefilename;
 
 // xdoc section - start
-// violation below 'The name of the outer type and the file do not match.'
-interface Example3ButNotSameName {}
+interface Example3Helper {} // ok, file has a public outer type
+public class Example3 {}
 // xdoc section - end
